@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind card</title>
+</head>
+<body>
+
+    <main class=" flex h-screen">
+        <div class="cards-container flex h-5/6 w-3/4 border-solid m-auto p-7  bg-slate-200">
+            <article class="flex flex-col shrink justify-center w-1/4 m-auto rounded-lg bg-amber-600 hover:-translate-y-4 ease-in duration-200 ease-in-out cursor-pointer hover:shadow-blue-200 ">
+                <div>
+                    <img src="./images/1.jpg" alt="Imagen del producto" class="w-full rounded-t-lg relative z-10">
+                </div>
+                <div class="py-4 px-2 m-auto flex flex-col items-center font-bold text-xl relative">
+                    <h1>Autumn Watch</h1>
+                    <p> <span>$</span> 300.000</p>
+                    <div>
+                        <i class="fas fa-star text-amber-300"></i>
+                        <i class="fas fa-star text-amber-300"></i>
+                        <i class="fas fa-star text-amber-300"></i>
+                    </div>
+                    
+                    <button class=" border-2 border-teal-600 rounded-full p-2 bg-yellow-300 text-grey my-4 cursor-pointer hover:bg-cyan-100">Agregar al Carrito</button>
+                </div>
+            </article>
+            <article class="flex flex-col shrink justify-center w-1/4 m-auto rounded-lg bg-amber-600 hover:-translate-y-4 ease-in duration-200 ease-in-out cursor-pointer hover:shadow-blue-200 ">
+                <div>
+                    <img src="./images/3.jpg" alt="Imagen del producto" class="w-full  rounded-t-lg relative z-10">
+                </div>
+                <div class="py-4 px-2 m-auto flex flex-col items-center font-bold text-xl relative">
+                    <h1>Metallic Headphones</h1>
+                    <p> <span>$</span> 80.000</p>
+                    <div>
+                        <i class="fas fa-star text-amber-300"></i>
+                        <i class="fas fa-star text-amber-300"></i>
+                        <i class="fas fa-star text-amber-300"></i>
+                    </div>
+                    
+                    <button class=" border-2 border-teal-600 rounded-full p-2 bg-yellow-300 text-grey my-4 cursor-pointer hover:bg-cyan-100">Agregar al Carrito</button>
+                </div>
+            </article>
+            <article class="flex flex-col shrink justify-center w-1/4 m-auto rounded-lg bg-amber-600 hover:-translate-y-4 ease-in duration-200 ease-in-out cursor-pointer hover:shadow-blue-200 ">
+                <div>
+                    <img src="./images/2.jpg" alt="Imagen del producto" class="w-full  rounded-t-lg relative z-10">
+                </div>
+                <div class="py-4 px-2 m-auto flex flex-col items-center font-bold text-xl relative">
+                    <h1>Suede Shoes</h1>
+                    <p> <span>$</span> 250.000</p>
+                    <div>
+                        <i class="fas fa-star text-amber-300"></i>
+                        <i class="fas fa-star text-amber-300"></i>
+                        <i class="fas fa-star text-amber-300"></i>
+                    </div>
+                    
+                    <button class=" border-2 border-teal-600 rounded-full p-2 bg-yellow-400 text-grey my-4 cursor-pointer hover:bg-cyan-100">Agregar al Carrito</button>
+                </div>
+            </article>
+        </div>
+    </main>
+
+
+    <!-- scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/337c7a4f96.js" crossorigin="anonymous"></script>
+</body>
+</html>
